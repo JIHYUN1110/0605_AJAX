@@ -11,7 +11,7 @@
    
   $.getJSON은 서버에서 AJAX를 활용하여 더 용이하고 빠르게 json 데이터를 받아올 수 있도록 하는 함수!
   
-  이건 $.ajax 안에서 datatype: json, url: url, data: data, success: success를 이미 설정해두고 있는 상태라고 한다.
+  이건 $.ajax 안에서 {datatype: json, url: url, data: data, success: success}를 이미 설정해두고 있는 상태라고 한다.
   
   그래서 $.getJSON 안에 url 명시해주고, 필요한 함수 써주면 댕댕이 사진이 나온다!
   
